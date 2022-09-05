@@ -1,0 +1,154 @@
+
+
+
+
+
+/* offers area*/
+.offers_area{
+    padding-bottom:100px
+}
+@media (max-width: 767px){
+    .offers_area{padding-bottom:40px
+    }
+}
+
+/* pading_top */
+.offers_area.padding_top{padding-top:100px}
+@media (max-width: 767px){.offers_area.padding_top{padding-top:80px}}
+@media (min-width: 768px) and (max-width: 991px){.offers_area.padding_top{padding-top:80px}}
+@media (min-width: 992px) and (max-width: 1200px){.offers_area.padding_top{padding-top:80px}}
+
+.mb-100{
+    margin-bottom:100px
+}@media (max-width: 767px){
+    .mb-100{
+        margin-bottom:40px
+    }
+}@media (max-width: 767px){
+    .mobile_menu{
+        position:absolute;
+        right:0px;
+        width:100%;
+        z-index:9
+    }
+}
+
+.section_title span{
+    color:#009DFF;
+    font-size:14px;
+    font-weight:400;
+    margin-bottom:15px;
+    display:block
+}
+
+.section_title h3{
+    font-size:46px;
+    font-weight:400;
+    line-height:56px;
+    color:#1F1F1F
+}
+@media (max-width: 767px)
+{.section_title h3{
+    font-size:30px;line-height:36px
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .section_title h3{
+        font-size:36px;line-height:42px
+    }
+} 
+@media (max-width: 767px){
+    .section_title h3 br{
+        display:none
+    }
+}
+
+/* offers_area */
+@media (max-width: 767px){.offers_area .single_offers{margin-bottom:30px}}
+
+.offers_area .single_offers h3{font-size:22px;font-weight:400;color:#1F1F1F;margin-top:32px}
+@media (min-width: 768px) and (max-width: 991px){.offers_area .single_offers h3{font-size:18px}}
+@media (min-width: 768px) and (max-width: 991px){.offers_area .single_offers h3 br{display:none}}
+.offers_area .single_offers ul{margin-top:17px;margin-bottom:30px}
+.offers_area .single_offers ul li{font-size:16px;color:#4D4D4D;line-height:28px;position:relative;z-index:9;padding-left:23px}
+.offers_area .single_offers ul li::before{position:absolute;content:"";width:8px;height:8px;background:#4D4D4D;left:0;top:50%;
+    -webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);border-radius:50%}
+.offers_area .single_offers a{width:100%;text-align:center}.offers_area .single_offers:hover .about_thumb img{width:100%;-webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}.video_bg{background-image:url(../img/video/video.png)}
+
+
+/* about-thumb */
+
+.offers_area .single_offers .about_thumb{overflow:hidden}
+.offers_area .single_offers .about_thumb img{width:100%;-webkit-transform:scale(1);
+    -moz-transform:scale(1);-ms-transform:scale(1);transform:scale(1);-webkit-transition:.3s;
+    -moz-transition:.3s;-o-transition:.3s;transition:.3s}
+
+    .offers_area .single_offers:hover .about_thumb img{
+        width:100%;-webkit-transform:scale(1.1);
+        -moz-transform:scale(1.1);
+        -ms-transform:scale(1.1);transform:scale(1.1)
+    }
+
+/* book_now */
+    
+.book_now{display:inline-block;font-size:14px;color:#009DFF;border:1px solid #009DFF;
+    text-transform:capitalize;padding:10px 25px}
+.book_now:hover{background:#009DFF;color:#fff}
+
+
+/* offres end  */
+
+
+/* rooms start */
+
+.features_room{padding-top:93px;display:block;overflow:hidden}
+@media (max-width: 767px){.features_room{padding-top:40px}}
+@media (min-width: 768px) and (max-width: 991px){
+    .features_room{padding-top:0}}
+
+    /* single-rooms*/
+
+    .features_room .rooms_here .single_rooms{position:relative;width:50%;float:left}
+    @media (max-width: 767px){.features_room .rooms_here .single_rooms{width:100%;margin-bottom:30px}}
+    .features_room .rooms_here .single_rooms::before{
+
+        position:absolute;left:0;top:0;width:100%;height:100%;content:"";background:#ffffff;
+        background:-moz-linear-gradient(top, #fff 0%, #000 77%);
+        background:-webkit-linear-gradient(top, #fff 0%, #000 77%);
+        background:linear-gradient(to bottom, #fff 0%, #000 77%);
+        filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+        z-index:1;
+        opacity:.5}
+
+    /* room-thumb */
+
+    .features_room .rooms_here .single_rooms .room_thumb{position:relative;overflow:hidden}
+    .features_room .rooms_here .single_rooms .room_thumb img{width:100%;-webkit-transform:scale(1);
+
+        -moz-transform:scale(1);-ms-transform:scale(1);
+        transform:scale(1);-webkit-transition:.5s;-moz-transition:.5s;
+        -o-transition:.5s;transition:.5s}
+
+        /* room-heading */
+
+        .features_room .rooms_here .single_rooms .room_thumb .room_heading{position:absolute;left:0;right:0;bottom:0px;padding:60px 60px 47px 60px}
+        @media (max-width: 767px){.features_room .rooms_here .single_rooms .room_thumb .room_heading{padding:20px}}
+        @media (min-width: 768px) and (max-width: 991px){.features_room .rooms_here .single_rooms .room_thumb .room_heading{padding:20px}}
+        .features_room .rooms_here .single_rooms .room_thumb .room_heading span{font-size:14px;color:#FFFFFF;margin-bottom:9px;display:block;position:relative;z-index:8}
+        .features_room .rooms_here .single_rooms .room_thumb .room_heading h3{font-size:30px;color:#fff;position:relative;z-index:8}
+        @media (max-width: 767px){.features_room .rooms_here .single_rooms .room_thumb .room_heading h3{font-size:20px}}
+        .features_room .rooms_here .single_rooms .room_thumb .room_heading a{color:#fff;text-transform:capitalize;font-weight:600;position:relative;z-index:8;-webkit-transform:translateY(-40px);
+            -moz-transform:translateY(-40px);-ms-transform:translateY(-40px);transform:translateY(-40px);opacity:0;visibility:hidden}
+            .features_room .rooms_here .single_rooms .room_thumb .room_heading a:hover{color:#009DFF}
+            .features_room .rooms_here .single_rooms:hover img{width:100%;-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+            .features_room .rooms_here .single_rooms:hover .room_heading a{-webkit-transform:translateY(0px);-moz-transform:translateY(0px);
+            -ms-transform:translateY(0px);transform:translateY(0px);opacity:1;visibility:visible}
+
+            /* line-button*/
+            .line-button{color:#919191;font-size:16px;font-weight:400;
+                display:inline-block;position:relative;padding-right:5px;padding-bottom:2px}
+                .line-button::before{position:absolute;content:"";background:#919191;width:100%;
+                    height:1px;bottom:0;left:0}
+                .line-button:hover{color:#009DFF}
+            .line-button:hover::before{background:#009DFF}

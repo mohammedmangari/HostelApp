@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #b8e8e7;
+    margin-top: 90px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-style {
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.form-style .required {
+    color: red;
+}
+
+.form-style input[type=submit],
+.form-style input[type=reset] {
+    background: white;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.form-style input[type=submit]:hover,
+.form-style input[type=reset]:hover {
+    background: #eae2e2;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    font-family: Poppins;
+}
+
+.form-style .field-textarea {
+    height: 200px;
+
+}
+
+.form-style input[type=text],
+.form-style input[type=email],
+textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.form-style .long {
+    width: 100%;
+}
+
+.form-style input[type=text]:focus,
+.form-style input[type=email]:focus,
+.form-style textarea:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+.error {
+    color: red;
+    background-color: white;
+}
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+h1 {
+    font-family: Poppins;
+}
+
+.paragraphe {
+    color: black;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.container {
+    font-family: Poppins;
+    width: 655px;
+    margin: 20px auto;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
