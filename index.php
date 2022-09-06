@@ -1,45 +1,52 @@
-<?php
 
-include 'db_connect.php';
+<?php 
+
+include 'config.php';
 
 session_start();
 
 error_reporting(0);
 
 
-if (isset($_SESSION['username']) && isset($_SESSION['id'])) {
-	header("Location: compte.php");
-}
+// if (isset($_SESSION['username'])) {
+// 	if($_SESSION['username'] == "Admin@Admin"){
+// 		if($_SESSION['password']=="1234"){
+// 			header("Location: dash.php");
+// 		}
+// 	}else{
+//     header("Location: welcome.php");
+//     }
+// }
+
+// if (isset($_SESSION['username'])) {
+// 	header("Location: projet_devweb/compte.php");
+// }
 
 if (isset($_POST['submit'])) {
 	$email = $_POST['email'];
-
 	//  encrypte password
 	$password = md5($_POST['password']);
 
-	if ($email == "Admin@Admin") {
-		header("Location: login_register/dashbord.php");
+	if($email == "Admin@Admin"){
+			header("Location: dashbord.php");
 	}
 
 	$sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
-	$result = mysqli_query($conx, $sql);
-	
+	$result = mysqli_query($conn, $sql);
 	if ($result->num_rows > 0) {
 		$row = mysqli_fetch_assoc($result);
-		$_SESSION['id'] = $row['id'];
 		$_SESSION['username'] = $row['username'];
-		
-		header("Location: compte.php");
+		header("Location: projet_devweb/compte.php");
 	} else {
 		echo "<script>alert('Woops! Email or Password is Wrong.')</script>";
 	}
+	
 }
 
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,26 +55,24 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" type="text/css" href="style_login.css">
 
-	<title>friend's hotel </title>
+	<title>friend's hotel</title>
 </head>
-
 <body>
 	<div class="container">
 		<form action="" method="POST" class="login-email">
-			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Connection</p>
+			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Se connecte</p>
 			<div class="input-group">
-				<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
+				<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required >
 			</div>
 			<div class="input-group">
 				<input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
 			</div>
 			<div class="input-group">
-				<button name="submit" class="btn">Se connecter</button>
+				<button name="submit" class="btn">CONECTE</button>
 			</div>
-			<p class="login-register-text " style="text-align:center"><a href="affiche.php">Creer un compte.</a></p>
+			<p class="login-register-text " style="padding-left:15px"><a href="register.php">Créer un compte.</a></p>
 
 		</form>
 	</div>
 </body>
-
 </html>
