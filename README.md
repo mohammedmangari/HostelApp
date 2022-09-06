@@ -4,6 +4,6 @@
 
    ### Hotel Digital permet aux hôteliers d'avoir une vue d'ensemble de toutes les données de leur hôtel, et de gérer les factures. Les directeurs d'hôtel peuvent également voir les statistiques concernant les entrées pour chaque mois, ainsi que gérer les employeurs et les employés. Avec cette solution digitale, les hôteliers peuvent offrir à leurs clients un service de qualité.
    
-   ### pour accede au compte admin:
+   ### accéder au compte d'admin :
    ##### email : Admin@Admin.com
    ##### mot de passe : 123
