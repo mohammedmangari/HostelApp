@@ -1,0 +1,141 @@
+/* footer */
+
+.Contact{
+    padding: 100px 0 20px;
+    background: #efebc2;
+    position: relative;
+}
+
+.titre-text{
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.titre-text p{
+    margin: auto;
+    font-weight: bold;
+    opacity: 0.5;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.titre-text p::after{
+    content: '';
+    background: linear-gradient(#0676d1, #fff);
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-10deg);
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.titre-text span{
+     font-size: 36px;
+     color: #000 !important;
+}
+
+.pied-page{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:375 ){
+  
+    .pied-g h1{
+         
+         font-size:15px;
+           
+    }
+    .pied-d h1{
+           
+        font-size:15px;
+           
+    }
+
+    .pied-d {
+           
+          align-items: center;
+          margin: auto;
+           
+    }
+
+
+
+}
+
+
+
+.pied-g, .pied-d{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pied-d{
+    text-align: right;
+}
+
+.pied-page h1{
+    margin: 10px 0;
+}
+
+.pied-g .far{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0676d1;
+}
+
+.pied-d .far, .pied-d .fas{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #0676d1;
+}
+
+.img-footer{
+    max-width: 470px;
+    opacity: 0.2;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    transition: 0.6s ease-in;
+}
+
+.img-footer:hover{
+    transform: translate(-50%);
+}
+
+.reseaux-sociaux{
+    text-align: center;
+}
+
+.reseaux-sociaux .fab{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #0676d1;
+    cursor: pointer;
+    transition: 0.6s ease-in;
+    color: #0676d1
+}
+
+.reseaux-sociaux .fab:hover{
+    background: #0676d1;
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.reseaux-sociaux p{
+    font-size: 35px;
+    margin-top: 20px;
+}

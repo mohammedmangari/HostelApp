@@ -1,0 +1,103 @@
+*{
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.bg{
+    background-color: #000;
+}
+/* .bg-light{
+    background-color: transparent !important;
+} */
+
+.carousel-item{
+    height:100vh;
+    min-height:300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width:60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration:  none;
+    background: #efebc2;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #000;
+    margin-top:15;
+}
+
+.navbar-nav a{
+    /* font-size: 18px; */
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: #009DFF;
+}
+
+.navbar-light .navbar-brand{
+    color:#000;
+    font-size:25px;
+    text-transform:  uppercase;
+    font-weight:  blod;
+    letter-spacing:  2px;
+
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #009DFF;
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#009DFF;
+   
+}
+
+.w-100{
+    height: 100%;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background:#fff;
+}
+
+@media  screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+        
+    }
+    .carousel-caption{
+        bottom: 165px;
+    }
+    .carousel-caption h5{
+        font-size:17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 17px;
+    }
+
+}
+

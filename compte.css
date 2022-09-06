@@ -1,0 +1,94 @@
+
+#restaurant{
+    width: 100px ;
+    border-radius: 50% ;
+}
+.chambres{
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.special-menu{
+   
+   
+    display: flex ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.button-group{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap ;
+}
+/* botton pour le menu*/
+.button-group .menu-button.active{
+    background-color: #009DFF;
+}
+
+.d-flex{
+    
+    height: 30px;
+    margin:12px;
+    position: relative;
+    bottom: 2px;
+}
+
+
+.d-flex .form-control{
+      
+       border-radius: 4px;
+}
+.btn-outline-primary{
+    background-color: #009DFF;
+    height: 49px;
+    color: black;
+}
+.btn-outline-primary:hover{
+    background-color: #8abedf;
+    border: none;
+    color: white;
+
+}
+.btn-outline-primary.active{
+    background-color:#0d5b8b ;
+    
+}
+
+/* le text dans le menu*/
+.why-text{
+    background-color: #fff!important;
+}
+h4, p, h5{
+    color:#000 !important;
+}
+.reserve{
+    color:#009DFF !important;
+    
+}
+
+
+
+.hide{
+    display: none;
+}
+/* compte image*/
+#compte-img{
+    border-radius:50%;
+    max-width: 40px;
+}
+
+
+
+
+/* pour le container */
+.container-fact{ 
+    border: #000 1px solid;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
