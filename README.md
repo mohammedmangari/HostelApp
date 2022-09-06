@@ -9,3 +9,27 @@ ____Admin (Directeurs).
    ### accéder au compte d'admin :
    ##### email : Admin@Admin.com
    ##### mot de passe : 123
+
+ ### les languages et les technologies utilisées.
+
+-html
+
+-css
+
+-javaScript
+
+-php
+
+-bootsrap
+
+-jQuery
+
+-Ajax
+
+-DataTables
+
+-sweetalert
+
+-mysql
+
+-design
