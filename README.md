@@ -1,34 +1,35 @@
 # Hostel App
 
-Clients.
-   ### Hotel_Degital est une application Web qui a été conçue pour simplifier la réservation d'un hôtel et disposer d'un système qui calcule les prix de chaque service. Le client peut prendre connaissance des différentes offres de l'hôtel et peut créer un compte avec lequel il pourra consulter ses transactions durant son séjour à l'hôtel.
-   
-Admin (Directeurs).
-   ### Hotel Digital permet aux hôteliers d'avoir une vue d'ensemble de toutes les données de leur hôtel, et de gérer les factures. Les directeurs d'hôtel peuvent également voir les statistiques concernant les entrées pour chaque mois, ainsi que gérer les employeurs et les employés. Avec cette solution digitale, les hôteliers peuvent offrir à leurs clients un service de qualité.
-   
-   ### accéder au compte d'admin :
-   ##### email : Admin@Admin.com
-   ##### mot de passe : 123
+## Demo Video
 
- ### les languages et les technologies utilisées.
+<video controls>
+  <source src="images/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-   html
+Click on the video above to watch the demo video of the Hostel App.
 
-   css
+### Clients
 
-   javaScript
+L'application Hostel App est conçue pour simplifier la réservation d'un hôtel et fournir un système de calcul des prix pour chaque service. Les clients peuvent consulter les différentes offres de l'hôtel et créer un compte pour suivre leurs transactions pendant leur séjour.
 
-   php
+### Admin (Directeurs)
 
-   bootsrap
+Hostel App permet aux directeurs d'hôtel d'avoir une vue d'ensemble de toutes les données de leur établissement et de gérer les factures. Les directeurs peuvent également accéder aux statistiques mensuelles, gérer les employés et offrir un service de qualité à leurs clients.
 
-   jQuery
+Pour accéder au compte admin :
 
-   Ajax
+- Email : Admin@Admin.com
+- Mot de passe : 123
 
-   DataTables
+### Technologies utilisées
 
-   sweetalert
+Les langages et technologies utilisés pour le développement de l'application sont :
 
-   mysql
-
+- ![HTML](https://img.icons8.com/color/48/000000/html-5--v1.png) HTML
+- ![CSS](https://img.icons8.com/color/48/000000/css3.png) CSS
+- ![JavaScript](https://img.icons8.com/color/48/000000/javascript--v1.png) JavaScript
+- ![PHP](https://img.icons8.com/color/48/000000/php.png) PHP
+- ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png) Bootstrap
+- ![jQuery](https://img.icons8.com/ios-filled/50/000000/jquery.png) jQuery
+- ![MySQL](https://img.icons8.com/ios-filled/50/000000/mysql-logo.png) MySQL
