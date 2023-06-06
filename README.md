@@ -1,13 +1,10 @@
 # Hostel App
 
-## Demo Video
+## Vidéo de démonstration
 
-<video controls>
-  <source src="images/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Vidéo de démonstration](./images/demo_video_thumbnail.png)](./images/demo.mp4)
 
-Click on the video above to watch the demo video of the Hostel App.
+Cliquez sur l'image ci-dessus pour regarder la vidéo de démonstration de l'application Hostel.
 
 ### Clients
 
@@ -32,4 +29,5 @@ Les langages et technologies utilisés pour le développement de l'application s
 - ![PHP](https://img.icons8.com/color/48/000000/php.png) PHP
 - ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png) Bootstrap
 - ![jQuery](https://img.icons8.com/ios-filled/50/000000/jquery.png) jQuery
+- ![DataTables](https://img.icons8.com/material-rounded/48/000000/data-configuration.png) DataTables
 - ![MySQL](https://img.icons8.com/ios-filled/50/000000/mysql-logo.png) MySQL
