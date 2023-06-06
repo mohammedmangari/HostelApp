@@ -2,9 +2,10 @@
 
 ## Vidéo de démonstration
 
-[![Demo Video](./images/demo_video_thumbnail.png)](./images/demo.mp4)
 
-Cliquez sur l'image ci-dessus pour regarder la vidéo de démonstration de l'application Hostel.
+https://github.com/mohammedmangari/HostelApp/assets/106490110/7bf2e6f4-bff8-4dd6-acdf-5f156f390394
+
+
 
 ### Clients
 
