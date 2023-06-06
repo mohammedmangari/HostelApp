@@ -17,7 +17,7 @@ Hostel App permet aux directeurs d'hôtel d'avoir une vue d'ensemble de toutes l
 
 Pour accéder au compte admin :
 
-- Email : Admin@Admin.com
+- Email : Admin@Admin
 - Mot de passe : 123
 
 ### Technologies utilisées
