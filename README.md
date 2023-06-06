@@ -2,7 +2,7 @@
 
 ## Vidéo de démonstration
 
-[![Vidéo de démonstration](./images/demo_video_thumbnail.png)](./images/demo.mp4)
+[![Demo Video](./images/demo_video_thumbnail.png)](./images/demo.mp4)
 
 Cliquez sur l'image ci-dessus pour regarder la vidéo de démonstration de l'application Hostel.
 
